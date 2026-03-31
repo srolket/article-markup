@@ -85,7 +85,6 @@
     .header {
         padding: 0;
         font-size: 20px;
-        margin:
         /*list-style: none;*/
         list-style-type: none;
     }
@@ -98,6 +97,7 @@
     .header li + li {
         margin-left: -10px;
     }
+
     .header .hovered {
         text-decoration: underline;
     }
