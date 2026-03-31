@@ -41,16 +41,24 @@
 
 
 .header {
-    background-color: #d6d1d1;
-    padding: 10px;
-    /*list-style: none;*/
-    text-align: left;
+    background-color: #f3eeee;
+    padding: 10px 0;
     
+    /*list-style: none;*/
+    margin: 0 -10px;
+    
+    text-align: left;
+    font-size: 20px;
     list-style-type: none;
+    border: 1px solid black;
 }
 .header li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0;
+}
+
+.header li + li {
+    margin-left: 30px;
 }
 .header li:hover{
     text-decoration: underline;
@@ -65,15 +73,14 @@
 
 @media (max-width: 800px) {
     .header {
-        background-color: #d6d1d1;
         padding: 10px;
-
+        font-size: 20px;
         /*list-style: none;*/
         list-style-type: none;
     }
     .header li {
         display: block;
-        margin: 10px -30px;
+        margin: 10px -10px;
     }
     .header .hovered {
         text-decoration: underline;
