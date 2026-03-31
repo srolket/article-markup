@@ -4,9 +4,9 @@
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     width: 700px;
     margin: 55px auto 10px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 44px;
 }
 
 .article {
@@ -16,8 +16,13 @@
     margin: 0 auto 0;
     padding: 0;
     color: rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    text-align: left;
+    line-height: 33px;
+}
+
+.article p {
+    margin: 0;
+    padding: 0;
 }
 
 .image {
@@ -34,9 +39,9 @@
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     width: 700px;
     margin: 55px auto 10px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 39px;
 }
 
 
@@ -71,18 +76,48 @@
         /*list-style: none;*/
         list-style-type: none;
     }
+
     .header li {
         display: block;
         margin: 10px -30px;
     }
+
     .header .hovered {
         text-decoration: underline;
     }
+
     .header .active {
         color: red;
     }
+
     .header li a {
         text-decoration: none;
         color: black;
+    }
+
+    .title-1 {
+        font-size: 26px;
+        line-height: 28px;
+        width: 520px;
+        margin: 25px auto 20px;
+    }
+
+    .title-2 {
+        font-size: 22px;
+        line-height: 39px;
+        width: 520px;
+        margin: 25px auto 6px;
+    }
+
+    .article {
+        font-size: 18px;
+        line-height: 22px;
+        width: 520px;
+    }
+
+    .image {
+        width: 75%;
+        height: 75%;
+        margin: 43px auto 37px;
     }
 }
