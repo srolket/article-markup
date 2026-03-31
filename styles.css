@@ -29,6 +29,11 @@
     margin: 43px auto 37px;
 }
 
+.logo {
+    width: 97px;
+    height: 64px;
+}
+
 .article code {
     background-color: lightgray;
     font-family: "Courier New", monospace;
@@ -126,5 +131,10 @@
         width: 75%;
         height: 75%;
         margin: 43px auto 37px;
+    }
+
+    .logo {
+        width: 101px;
+        height: 64px;
     }
 }
