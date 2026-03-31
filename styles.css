@@ -40,8 +40,49 @@
 }
 
 
+.header {
+    background-color: #d6d1d1;
+    padding: 10px;
+    /*list-style: none;*/
+    text-align: left;
+    
+    list-style-type: none;
+}
+.header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.header li:hover{
+    text-decoration: underline;
+}
+.header .active {
+    color: red;
+}
+.header li a {
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .header {
+        background-color: #d6d1d1;
+        padding: 10px;
+
+        /*list-style: none;*/
+        list-style-type: none;
+    }
+    .header li {
+        display: block;
+        margin: 10px -30px;
+    }
+    .header .hovered {
+        text-decoration: underline;
+    }
+    .header .active {
+        color: red;
+    }
+    .header li a {
+        text-decoration: none;
+        color: black;
+    }
 }
